@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo apt-get update
 for pack in cat `cat list2.txt`
 do sudo apt-get -y install $pack
 done
