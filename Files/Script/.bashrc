@@ -116,10 +116,10 @@ sudo mount /dev/sda1 /mnt/USBdrive
 if ps -al | grep "python$" ; then
 	echo "Already running"
 else
-	python /home/pi/DOC/video.py &
+	python /home/pi/Nestkast/Files/Python/video.py &
 fi
 if ps -al | grep "python3" ; then
         echo "Already running"
 else
-	python3 /home/pi/DOC/temp.py &
+	python3 /home/pi/Nestkast/Files/Python/temp.py &
 fi
