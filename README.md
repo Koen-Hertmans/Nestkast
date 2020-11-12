@@ -1,2 +1,2 @@
 # Nestkast
-CHeck the wiki for more information
+Check the wiki for more information
