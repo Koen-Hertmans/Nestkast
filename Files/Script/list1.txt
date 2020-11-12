@@ -438,6 +438,7 @@ libgomp1:armhf
 libgpg-error0:armhf
 libgphoto2-6:armhf
 libgphoto2-port12:armhf
+libgpiod2:armhf
 libgpm2:armhf
 libgraphite2-3:armhf
 libgroupsock8:armhf
@@ -655,6 +656,7 @@ libpostproc55:armhf
 libprocps7:armhf
 libprotobuf-c1:armhf
 libprotobuf-lite17:armhf
+libprotobuf17:armhf
 libproxy-tools
 libproxy1v5:armhf
 libpsl5:armhf
@@ -1087,6 +1089,7 @@ python-minimal
 python-mock
 python-mote
 python-motephat
+python-mysqldb
 python-numpy
 python-oauthlib
 python-olefile
@@ -1191,6 +1194,7 @@ python3-mote
 python3-motephat
 python3-mypy
 python3-mypy-extensions
+python3-mysql.connector
 python3-numpy
 python3-oauthlib
 python3-olefile
@@ -1206,6 +1210,7 @@ python3-pigpio
 python3-pil:armhf
 python3-pip
 python3-pkg-resources
+python3-protobuf
 python3-psutil
 python3-pygame
 python3-pygments
