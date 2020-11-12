@@ -4,7 +4,7 @@ for pack in cat `cat list2.txt`
 do sudo apt-get -y install $pack
 done
 
-mysql -u root -p <<MYSQL_SCRIPT
+sudo mysql -u root -p <<MYSQL_SCRIPT
 CREATE DATABASE VOGEL;
 CREATE USER 'pi'@'localhost' IDENTIFIED BY 'rootroot';
 GRANT ALL PRIVILEGES ON VOGEL.* TO 'pi'@'localhost';
